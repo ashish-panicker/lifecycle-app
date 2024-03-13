@@ -32,6 +32,7 @@ export class JokeListComponent implements AfterViewInit {
     console.log(`ngAfterViewInit - jokeViewChild is ${this.jokeViewChild.joke}`);
     this.jokeViewChildren.forEach(child => console.log(`Joke is -> ${child.joke} ${child.data.punchline}`))
     console.log(`ngAfterViewInit - ElementRef value is ${this.title.nativeElement.innerText}`);
+    console.log(`ngAfterViewInit - ElementRef value is ${this.title.nativeElement}`);
     this.title.nativeElement.innerText = 'Jokes AfterViewInit'
     console.log(`ngAfterViewInit - ElementRef value is ${this.title.nativeElement.innerText}`);
   }

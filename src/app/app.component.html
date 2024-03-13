@@ -1,1 +1,6 @@
-<app-joke-list></app-joke-list>
+<!-- <app-joke-list></app-joke-list> -->
+
+<h1> {{title | uppercase | lowercase}} </h1>
+<h2> {{startDate | date:'h:mm:ss a'}} </h2>
+<h2> {{joke | json}} </h2>
+<p> {{title | shortText: 5: 10}} </p>
