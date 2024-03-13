@@ -1,0 +1,16 @@
+.nav {
+    display: flex;
+    flex-direction: row;
+    padding: 24px;
+}
+
+.nav a {
+    margin-right: 12px;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.nav a:hover{
+    /* font-weight: bold; */
+    text-decoration: underline;
+}

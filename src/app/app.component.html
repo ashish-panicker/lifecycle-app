@@ -4,3 +4,11 @@
 <h2> {{startDate | date:'h:mm:ss a'}} </h2>
 <h2> {{joke | json}} </h2>
 <p> {{title | shortText: 5: 10}} </p>
+
+
+<div class="nav">
+    <a routerLink="page1"> Page 1</a>
+    <a routerLink="page2"> Page 2</a>
+</div>
+
+<router-outlet></router-outlet>
