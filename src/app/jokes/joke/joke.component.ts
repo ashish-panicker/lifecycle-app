@@ -14,21 +14,21 @@ export class JokeComponent implements OnInit, OnDestroy, OnChanges {
   @Input() joke: string = ''
 
   constructor() {
-    console.log(`Joke component constructor ${new Date()}`)
+    // console.log(`Joke component constructor ${new Date()}`)
   }
 
   ngOnInit(): void {
-    console.log(`Joke component ngOnInit`)
+    // console.log(`Joke component ngOnInit`)
   }
 
   ngOnDestroy(): void {
-    console.log(`Joke component ngOnDestroy`)
+    // console.log(`Joke component ngOnDestroy`)
   }
 
   ngOnChanges(changes: SimpleChanges): void {
-    if (changes['joke']) {
-      console.log(`${changes['joke'].previousValue} to ${changes['joke'].currentValue}`)
-    }
+    // if (changes['joke']) {
+      // console.log(`${changes['joke'].previousValue} to ${changes['joke'].currentValue}`)
+    // }
   }
 
 }

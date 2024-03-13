@@ -1,9 +1,10 @@
 <div class="container">
+    <h1 #title>Jokes</h1>
     <div class="row mx-4">
         <app-joke *ngFor="let j of jokes"
             [data]="j" [joke]="j.setUp">
             <span class="setup">{{ j.setUp }}?</span>
-            <h1 class="punchline">{{ j.punchline }}</h1>
+            <h2 class="punchline">{{ j.punchline }}</h2>
         </app-joke>
 
         <button type="button"
